@@ -1,8 +1,8 @@
-# CSV-to-Postgres
+﻿# CSV-to-Postgres
 
 Batch-import every CSV in a folder into PostgreSQL using a Jupyter notebook and a small Python helper module.
 
-Adapted from [StrataScratch's csv_to_db_automation](https://github.com/Strata-Scratch/csv_to_db_automation) and extended for Electronic Medical Record (EMR) export quirks — especially encoding issues common in clinical data extracts.
+Adapted from [StrataScratch's csv_to_db_automation](https://github.com/Strata-Scratch/csv_to_db_automation) and extended for Electronic Medical Record (EMR) export quirks â€” especially encoding issues common in clinical data extracts.
 
 ## Features
 
@@ -25,9 +25,10 @@ Adapted from [StrataScratch's csv_to_db_automation](https://github.com/Strata-Sc
 
 ## Notes
 
-- Some EMR exports require `errors='ignore'` during decode. That can drop invalid characters — review loaded data when fidelity matters.
+- Some EMR exports require `errors='ignore'` during decode. That can drop invalid characters â€” review loaded data when fidelity matters.
 - Credit: Nate / StrataScratch tutorials on Pandas and NumPy are excellent references for this style of workflow.
 
 ## License
 
-No license file is currently published in this repository. Contact the author if you need reuse terms.
+MIT License — see [LICENSE](LICENSE).
+
